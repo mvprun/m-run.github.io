@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#00133e">
-  <meta name="description" content="MVP RUN: выбрать коммерческую гипотезу для прямых B2B-продаж на основе данных о клиентах и рынке и проверить её через персонализированные касания.">
-  <title>MVP RUN — проверка коммерческой гипотезы для прямых B2B-продаж</title>
-  <link rel="icon" type="image/svg+xml" href="assets/mvp-run-logo-round.svg">
+  <meta name="description" content="M-RUN: выбрать коммерческую гипотезу для прямых B2B-продаж на основе данных о клиентах и рынке и проверить её через персонализированные касания.">
+  <title>M-RUN — проверка коммерческой гипотезы для прямых B2B-продаж</title>
+  <link rel="icon" type="image/svg+xml" href="assets/m-run-round-v2.svg">
   <style>
     :root{--navy:#00133e;--blue:#1b2c53;--deep:#0f214a;--paper:#f7f5f2;--surface:#fff;--soft:#eceae5;--pale:#e9edf5;--ink:#1b1b1b;--muted:#696862;--line:#d8d6d0;--dark-line:#344467;--gutter:clamp(24px,6.8vw,108px);--max:1580px}
     *,*::before,*::after{box-sizing:border-box}
@@ -95,7 +95,7 @@
     @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-aside{justify-self:start;max-width:740px;border-left:0;border-top:1px solid var(--line);padding:24px 0 0;margin-top:30px}.split{grid-template-columns:1fr;gap:35px}.fit{grid-template-columns:1fr;gap:10px}.stage{grid-template-columns:45px minmax(0,1fr)}.stage-duration{grid-column:2;text-align:left}.method-grid{grid-template-columns:1fr}.method-step,.method-step+.method-step{border-left:0;border-top:1px solid var(--line);padding:25px 0}.method-step:first-child{border-top:0}.step-no{margin-bottom:18px}.case-grid{grid-template-columns:1fr}.case,.case+.case{border-left:0;padding:28px 0}.case+.case{border-top:1px solid var(--line)}}
     @media(max-width:600px){body{font-size:16px}.site-header{height:82px}.brand{gap:10px;font-size:15px}.brand img{width:47px;height:47px}.header-link{font-size:13px}.hero{padding-top:55px;padding-bottom:80px}h1{font-size:clamp(43px,11.5vw,62px);line-height:1.04;margin-bottom:26px}h2{font-size:clamp(34px,9vw,47px)}.lead{font-size:19px}.section{padding-block:78px}.cta{width:100%;max-width:360px}.stage{grid-template-columns:35px 1fr;gap:12px;padding:25px 0}.stage h3{font-size:22px}.closing{padding-block:78px}.footer .wrap{display:block}.footer a{display:inline-block;margin-top:10px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta,.cta .arrow{transition:none}.cta:hover,.cta:hover .arrow{transform:none}}
-    /* Shared editorial system with the Shep reference. MVP RUN keeps its own navy palette. */
+    /* Shared editorial system with the Shep reference. M-RUN keeps its own navy palette. */
     .section{position:relative;border-bottom:1px solid var(--line);padding-block:clamp(62px,8vw,110px)}
     h1,h2,h3{font-weight:400;letter-spacing:-.045em}
     h1{font-size:clamp(40px,5vw,72px);line-height:1.01;max-width:1120px}
@@ -126,6 +126,10 @@
     .stage{grid-template-columns:75px minmax(0,1fr) 180px;border-color:#bfc8d7;gap:28px}
     .stage:last-of-type{border-color:#bfc8d7}
     .stage-number,.stage-duration{font-weight:400}
+    .stage-price{display:block;font-size:clamp(25px,2.4vw,35px);line-height:1.2;letter-spacing:-.03em;margin-bottom:8px;white-space:nowrap}
+    .stage-duration small{display:block;font-size:14px;line-height:1.4}
+    .cycle-price{margin-top:30px;font-size:clamp(23px,2.2vw,34px);line-height:1.25;letter-spacing:-.03em;color:var(--navy)}
+    .cycle-price small{display:block;margin-top:10px;font-size:16px;line-height:1.5;letter-spacing:normal;color:#4d5667}
     .stage h3{font-size:clamp(25px,2.4vw,35px)}
     .stage p,.stage-note{color:#4d5667}
     .stage-summary{border-top:1px solid #bfc8d7;padding-top:30px;max-width:1080px;font-size:clamp(23px,2.2vw,34px);line-height:1.25;letter-spacing:-.03em}
@@ -145,7 +149,7 @@
 </head>
 <body>
   <header class="wrap site-header">
-    <a class="brand" href="#top" aria-label="MVP RUN — к началу страницы"><img src="assets/mvp-run-logo-round.svg" width="64" height="64" alt=""><span>MVP RUN</span></a>
+    <a class="brand" href="#top" aria-label="M-RUN — к началу страницы"><img src="assets/m-run-round-v2.svg" width="64" height="64" alt=""><span>M-RUN</span></a>
     <a class="header-link" href="#approach">Как это работает</a>
   </header>
   <main id="top">
@@ -154,7 +158,7 @@
       <div class="hero-grid">
         <div class="hero-copy">
           <h1 id="hero-title">Выберите одну гипотезу для прямых продаж и проверьте её на рынке.</h1>
-          <p class="lead">MVP RUN изучает ваши продажи и рынок, определяет ICP, ситуацию покупки, оффер и способ выхода. Затем проверяет эту коммерческую гипотезу через персонализированные касания.</p>
+          <p class="lead">M-RUN изучает ваши продажи и рынок, определяет ICP, ситуацию покупки, оффер и способ выхода. Затем проверяет эту коммерческую гипотезу через персонализированные касания.</p>
           <a class="cta" href="https://t.me/SergeySolodyankin" target="_blank" rel="noopener noreferrer"><span>Обсудить задачу</span><span class="arrow" aria-hidden="true">↗</span></a>
           <p class="cta-note">30-минутная стыковочная встреча. Сверим вашу ситуацию и поймём, есть ли смысл начинать проект.</p>
         </div>
@@ -190,12 +194,12 @@
     <section class="section stages" aria-labelledby="stages-title">
       <div class="wrap">
         <div class="eyebrow">Состав работы</div>
-        <div class="stages-header"><h2 id="stages-title">Три этапа. Отдельный результат после каждого.</h2></div>
-        <div class="stage"><div class="stage-number">01</div><div><h3>Исследование и выбор приоритетного ICP</h3><p>Обоснованный выбор одного направления для проверки.</p></div><div class="stage-duration">Ориентир: 2–3 недели</div></div>
-        <div class="stage"><div class="stage-number">02</div><div><h3>Коммерческая модель и материалы первого запуска</h3><p>Оффер, ситуация покупки, роли, цепочка касаний, сценарий разговора и минимальный Sales Kit.</p></div><div class="stage-duration">Ориентир: 1 неделя</div></div>
-        <div class="stage"><div class="stage-number">03</div><div><h3>Ручная проверка рынка</h3><p>Фактические ответы рынка и решение по следующему циклу.</p></div><div class="stage-duration">Ориентир: около 3 недель</div></div>
+        <div class="stages-header"><h2 id="stages-title">Исследование, упаковка и проверка. Два оплачиваемых этапа.</h2></div>
+        <div class="stage"><div class="stage-number">01</div><div><h3>Исследование и упаковка коммерческой гипотезы</h3><p>Внутреннее и внешнее исследование, выбор ICP и ситуации покупки. Оффер, роли, каналы поиска и выхода, цепочка касаний, сценарий разговора и минимальный Sales Kit.</p></div><div class="stage-duration"><span class="stage-price">150 000 ₽</span><small>Ориентир: 3–4 недели</small></div></div>
+        <div class="stage"><div class="stage-number">02</div><div><h3>Ручная проверка рынка</h3><p>Одна гипотеза, 50–70 подходящих компаний, 1–2 контакта на компанию и 2–3 касания. Разбираем ответы и диалоги, уточняем сообщение между двумя волнами и получаем данные для решения по направлению.</p></div><div class="stage-duration"><span class="stage-price">100 000 ₽</span><small>Ориентир: около 3 недель</small></div></div>
         <p class="stage-summary"><strong>Результат первого цикла:</strong> выбранный ICP и ситуация покупки, коммерческая модель выхода, материалы для первых продаж и фактическая реакция рынка. На этой основе понятно, какое направление развивать и какую систему продаж выстраивать дальше.</p>
-        <p class="stage-note">Можно остановиться после любого этапа. Начать со второго или третьего можно после аудита достаточности предыдущей работы.</p>
+        <p class="cycle-price">Полный первый цикл — 250 000 ₽.<small>Каждый этап оплачивается на 100% до начала.</small></p>
+        <p class="stage-note">Можно остановиться после исследования и упаковки. Начать сразу с ручной проверки можно после аудита достаточности уже выполненной работы.</p>
       </div>
     </section>
     <section class="section evidence" aria-labelledby="evidence-title">
@@ -214,12 +218,12 @@
       <div class="wrap">
         <div class="eyebrow">Следующий шаг</div>
         <h2 id="closing-title">Обсудим, какую коммерческую гипотезу стоит проверить первой.</h2>
-        <p class="lead">На 30-минутной встрече разберём текущий способ получения клиентов, наличие платных продаж, роль собственника и среднюю стоимость сделки. По итогам определим, нужен ли MVP RUN и с какого этапа можно начать.</p>
+        <p class="lead">На 30-минутной встрече разберём текущий способ получения клиентов, наличие платных продаж, роль собственника и среднюю стоимость сделки. По итогам определим, нужен ли M-RUN и с какого этапа можно начать.</p>
         <a class="cta" href="https://t.me/SergeySolodyankin" target="_blank" rel="noopener noreferrer"><span>Обсудить задачу</span><span class="arrow" aria-hidden="true">↗</span></a>
         <p class="cta-note">Напишите в Telegram @SergeySolodyankin</p>
       </div>
     </section>
   </main>
-  <footer class="footer"><div class="wrap"><span>© MVP RUN</span><a href="#top">Наверх ↑</a></div></footer>
+  <footer class="footer"><div class="wrap"><span>© M-RUN</span><a href="#top">Наверх ↑</a></div></footer>
 </body>
 </html>
